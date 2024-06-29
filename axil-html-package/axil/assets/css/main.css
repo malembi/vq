@@ -76,12 +76,12 @@
   --clr-common-border: #c7c7c7;
   --clr-common-placeholder: #8a8787;
   --clr-theme-1: #222222;
-  --clr-theme-2: #14cf93;
+  --clr-theme-2: #d56621;
   --clr-theme-3: #7c7c7c;
   --clr-theme-primary: #222222;
-  --clr-background-primary: #222222;
-  --clr-bg-1: #222222;
-  --clr-bg-2: #14cf93;
+  --clr-background-primary: #eeeeee;
+  --clr-bg-1: #eeeeee;
+  --clr-bg-2: #d56824;
   --clr-bg-3: #fffcf6;
   --clr-bg-4: #f2f2f2;
   --clr-bg-5: #F7F7F7;
@@ -3077,7 +3077,7 @@ body.mfp-content {
   }
 }
 /*======================================
-Animate slide-left 
+Animate slide-left
 ========================================*/
 @keyframes slide-left {
   from {
@@ -3090,7 +3090,7 @@ Animate slide-left
   }
 }
 /*======================================
-Hero-6 Animation 
+Hero-6 Animation
 ========================================*/
 .slider-active .ax-hero6__title, .slider-active .ax-hero6__sub-title, .slider-active .hero-btn {
   animation-fill-mode: both;
@@ -7205,6 +7205,7 @@ body {
 .section__inner-subtitle {
   font-size: 18px;
   font-weight: 500;
+  color: #000000;
   display: inline-block;
   margin-bottom: 25px;
   font-family: var(--tpl-ff-heading);
@@ -7283,10 +7284,10 @@ body {
   }
 }
 
-.section__title-wrapper.is-white .section__inner-subtitle {
+.section__title-wrapper.is-black .section__inner-subtitle {
   color: var(--clr-common-white);
 }
-.section__title-wrapper.is-white .section__title-inner {
+.section__title-wrapper.is-black .section__title-inner {
   color: var(--clr-common-white);
 }
 
@@ -7298,7 +7299,7 @@ body {
   margin-bottom: 0;
 }
 
-.section__title-wrapper.is-white .title-paragraph {
+.section__title-wrapper.is-black .title-paragraph {
   color: var(--clr-common-white);
   margin-bottom: 0;
 }
@@ -7318,8 +7319,8 @@ body {
 }
 
 .title-green {
-  color: #14CF93;
-  border-bottom: 3px solid #14CF93;
+  color: #f87625;
+  border-bottom: 3px solid #f57c30;
 }
 
 /*Interactions*/
@@ -7826,15 +7827,52 @@ body {
 }
 
 .parallax-image {
+  background-image: url('assets/img/gallery/principle.jpg');
   background-size: cover;
   background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 150%;
+  height: 100vh; /* or any specific height you want */
+  position: relative;
 }
 
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p, ul {
+  margin-top: 0;
+  text-align: left;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
 /*----------------------------------------
 	05. award css
 ----------------------------------------*/
@@ -11329,16 +11367,16 @@ body {
   @color declaration
   */
   --clr-common-white: #eeeeee;
-  --clr-common-black: #222222;
+  --clr-common-black: #eeeeee;
   --clr-common-border: #c7c7c7;
   --clr-common-placeholder: #8a8787;
-  --clr-theme-1: #222222;
-  --clr-theme-2: #14cf93;
+  --clr-theme-1: #eeeeee;
+  --clr-theme-2: #f57c30;
   --clr-theme-3: #7c7c7c;
   --clr-theme-primary: #eeeeee;
-  --clr-background-primary: #222222;
-  --clr-bg-1: #222222;
-  --clr-bg-2: #14cf93;
+  --clr-background-primary: #eeeeee;
+  --clr-bg-1: #eeeeee;
+  --clr-bg-2: #d56824;
   --clr-bg-3: #fffcf6;
   --clr-bg-4: #f2f2f2;
   --clr-bg-5: #F7F7F7;
