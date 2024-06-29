@@ -3541,7 +3541,7 @@ Hero-6 Animation
   left: 0;
   right: 0;
   z-index: 100;
-  background: var(--clr-theme-1);
+  background: var(--clr-common-border);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .header-3-main {
@@ -3624,7 +3624,7 @@ Hero-6 Animation
   font-weight: 600;
   font-family: var(--tpl-ff-heading);
   margin-bottom: 0;
-  color: var(--clr-common-white);
+  color: var(--clr-bg-1);
 }
 .contact-link__text p a:hover {
   color: var(--clr-theme-2);
@@ -4599,7 +4599,7 @@ Hero-6 Animation
 }
 .main-menu.is-white ul li a {
   color: var(--clr-common-white);
-  color: var(--clr-common-white);
+  color: var(--clr-bg-1);
 }
 .main-menu.is-white ul li:hover > a {
   color: var(--clr-theme-2);
