@@ -1804,11 +1804,11 @@ body.mfp-content {
   transition-delay: 0.15s;
 }
 .c-button:after {
-  background-color: #14CF93;
+  background-color:  #dd5004;;
 }
 .c-button:hover {
   transform: scale(1);
-  border-color: #14CF93;
+  border-color:  #dd5004;
 }
 .c-button:hover:after, .c-button:hover:before {
   top: 0;
@@ -1930,7 +1930,7 @@ body.mfp-content {
 }
 .round-button:hover {
   transform: scale(1);
-  border-color: #14CF93;
+  border-color:  #dd5004;
 }
 .round-button:hover:after, .round-button:hover:before {
   top: 0;
@@ -2268,10 +2268,10 @@ body.mfp-content {
   transition: 0.4s ease-out;
   height: 100%;
   width: 100%;
-  background-color: #14CF93;
+  background-color:  #dd5004;
 }
 .d-button:hover {
-  border-color: #14CF93;
+  border-color:  #dd5004;
 }
 .d-button:hover:after {
   top: 0;
@@ -3430,7 +3430,7 @@ Hero-6 Animation
   content: "";
   height: 7px;
   width: 7px;
-  background: #14CF93;
+  background:  #dd5004;
   border-radius: 50%;
   top: 50%;
   right: 0;
@@ -3624,7 +3624,7 @@ Hero-6 Animation
   font-weight: 600;
   font-family: var(--tpl-ff-heading);
   margin-bottom: 0;
-  color: var(--clr-bg-1);
+  color: var(--clr-common-black);
 }
 .contact-link__text p a:hover {
   color: var(--clr-theme-2);
@@ -4599,7 +4599,7 @@ Hero-6 Animation
 }
 .main-menu.is-white ul li a {
   color: var(--clr-common-white);
-  color: var(--clr-bg-1);
+  color: var(--clr-common-black);
 }
 .main-menu.is-white ul li:hover > a {
   color: var(--clr-theme-2);
@@ -6447,7 +6447,7 @@ body {
   }
 }
 .hero-5__title .highlight-title {
-  color: #14CF93;
+  color:  #dd5004;
   font-family: var(--tpl-ff-body);
   text-transform: uppercase;
 }
@@ -6786,7 +6786,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #14CF93;
+  color:  #dd5004;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -7098,7 +7098,7 @@ body {
   color: var(--clr-common-white);
 }
 .section__title-3-wrapper.section__title-wrapper-discuss .section__title-main {
-  color: #14CF93;
+  color: #dd5004;
 }
 .section__title-3-wrapper.section__title-wrapper-team .section__title-main {
   color: var(--clr-common-white);
@@ -8066,7 +8066,7 @@ li {
   width: 0;
   height: 0;
   border-top: 7px solid transparent;
-  border-right: 10px solid #14CF93;
+  border-right: 10px solid #dd5004;
   border-bottom: 7px solid transparent;
   border-radius: 10px 0px 0px 10px;
 }
@@ -9869,6 +9869,7 @@ li {
     transform: scale(1) !important;
   }
 }
+
 
 .project__item:nth-child(2n) {
   top: 50%;
@@ -13315,7 +13316,7 @@ li {
 
 .case-quote-author .name {
   font-size: 20px;
-  color: #14CF93;
+  color:  #dd5004;
   margin-right: 15px;
 }
 .case-quote-author .title {
@@ -15652,7 +15653,7 @@ li {
   }
 }
 .step-item:hover {
-  background: #14CF93;
+  background: #dd5004; 
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.07);
 }
 .step-item:hover .num__count {
@@ -16261,21 +16262,21 @@ li {
 }
 
 .footer__bg {
-  background: var(--clr-theme-1);
+  background-color: rgb(233, 169, 99);
 }
 .footer__logo {
-  width: 102px;
+  width: 250px;
 }
 .footer__logo img {
   width: 100%;
 }
 .footer__widget-title {
   font-size: 20px;
-  color: var(--clr-common-white);
+  color: #000;
   line-height: 1;
 }
 .footer__widget p {
-  color: #D9D9D9;
+  color: #000;
 }
 .footer__links ul {
   margin: 0;
@@ -16288,7 +16289,7 @@ li {
   margin-bottom: 15px;
 }
 .footer__links ul li a {
-  color: #D9D9D9;
+  color: #000;
 }
 .footer__links ul li a:hover {
   color: var(--clr-theme-2);
@@ -16395,7 +16396,7 @@ li {
 .joining-form .single-input-field input {
   background: transparent;
   border: 0;
-  color: var(--clr-common-white);
+  color: var(--clr-common-black);
   outline: 0;
   width: 100%;
 }
@@ -16471,11 +16472,11 @@ label {
   opacity: 1;
 }
 .check:hover svg {
-  stroke: #14CF93;
+  stroke:  #dd5004;
 }
 
 [type=checkbox]:checked + .check svg {
-  stroke: #14CF93;
+  stroke:  #dd5004;
 }
 [type=checkbox]:checked + .check svg path {
   stroke-dashoffset: 60;
@@ -16607,8 +16608,8 @@ label {
   line-height: 1;
 }
 .social-links ul li a {
-  color: #A5A5A5;
-  font-size: 16px;
+  color: #000;
+  font-size: 26px;
   position: relative;
 }
 .social-links ul li a:hover {
@@ -16741,7 +16742,7 @@ label {
   position: absolute;
   width: 304px;
   height: 304px;
-  background: #14CF93;
+  background:  #dd5004;
   opacity: 0.4;
   filter: blur(175px);
   bottom: 27px;
@@ -16874,7 +16875,7 @@ label {
   height: 80px;
   margin-top: -45px;
   border-radius: 0px;
-  background-color: #14CF93;
+  background-color:  #dd5004;
   animation: ax-loader-aim 0.8s infinite;
   animation-direction: alternate-reverse;
 }
