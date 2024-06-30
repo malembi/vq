@@ -1835,7 +1835,7 @@ body.mfp-content {
   top: 0;
   left: 0;
   transition: 0.4s ease-out;
-  border: 1px solid #5d5d5d;
+  border: 1px solid #f15c00;
 }
 .c-button__text {
   position: relative;
@@ -1843,7 +1843,7 @@ body.mfp-content {
   text-align: center;
   z-index: 2;
   font-size: 16px;
-  color: var(--clr-theme-primary);
+  color: var(--clr-common-black);
   line-height: 25px;
   transition: 0.4s ease-out;
 }
@@ -6175,6 +6175,7 @@ body {
 .hero-3__title .top {
   margin-bottom: 10px;
   display: block;
+  color: rgba(255, 128, 0, 0.921);
 }
 .hero-3__subtitle {
   font-size: 18px;
@@ -8204,11 +8205,15 @@ li {
   object-fit: cover;
 }
 
+
 .services-area-3__bg {
-  background: var(--clr-theme-1);
+   /* background: var(--clr-theme-3);  */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .services-area-3__bg img {
-  opacity: 0.15;
+  opacity: 1;
 }
 .services-area-3__shape-1 {
   position: absolute;
@@ -9757,10 +9762,20 @@ li {
   --bs-gutter-x: 110px;
 }
 
+/* .project-area-2 {
+  position: relative;
+  background-color:transparent;
+  overflow: hidden;
+  background-image: url('assets/img/maji.jpg');
+} */
 .project-area-2 {
   position: relative;
   background-color: transparent;
   overflow: hidden;
+  background-image: url('assets/img/maji.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .project__text {
@@ -10077,8 +10092,9 @@ li {
 }
 
 .team-area-2__bg {
-  background: var(--clr-theme-1);
+  background: var(--clr-theme-2);
   z-index: -1;
+  opacity: 0.9;
 }
 .team-area-2__shape-1 {
   position: absolute;
@@ -14420,7 +14436,7 @@ li {
   width: 100%;
   height: 100%;
   background-image: url(../img/bg/grid-line.png);
-  opacity: 0.5;
+   opacity: 0;
 }
 .discuss-area__bg:after {
   position: absolute;
@@ -14429,11 +14445,11 @@ li {
   height: 100%;
   top: 0;
   left: 0;
-  background: var(--clr-common-white);
+  /* background: var(--clr-common-white); */
   opacity: 0.9;
 }
 .discuss-area__bg .noise-wrapper {
-  opacity: 0.3;
+  opacity: 0;
   z-index: 1;
 }
 .discuss-area__bg .noise-wrapper .noise {
