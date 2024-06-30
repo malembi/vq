@@ -6902,7 +6902,8 @@ body {
   object-fit: cover;
 }
 .counter-area__bg_dark {
-  background: var(--clr-theme-1);
+  background: #c7c7c7;
+
 }
 @media (max-width: 575px) {
   .counter-area__btn {
@@ -6940,7 +6941,7 @@ body {
   font-size: 60px;
   font-weight: 700;
   line-height: 1.16;
-  color: var(--clr-common-white);
+  color: var(--clr-common-black);
   margin-bottom: 10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 575px) {
@@ -10312,7 +10313,7 @@ li {
 }
 .member-box-2 .member-thumb img {
   width: 100%;
-  aspect-ratio: 100/120;
+  /* aspect-ratio: 100/120; */
 }
 @media (hover: none) {
   .member-box-2 .member-thumb img {
@@ -14487,7 +14488,7 @@ li {
   height: 100%;
   top: 0;
   left: 0;
-  background: #000000;
+  background: #f95102;
   opacity: 0.6;
   z-index: -1;
 }
