@@ -245,16 +245,19 @@ h1 {
   h1 {
     font-size: 56px;
   }
+
 }
 @media (max-width: 575px) {
   h1 {
     font-size: 50px;
   }
+  
 }
 @media (max-width:450px) {
   h1 {
     font-size: 38px;
   }
+ 
 }
 h1.small {
   font-size: 65px;
@@ -596,6 +599,9 @@ p.large {
   .section-spacing {
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+  .footet-logo img {
+    width: 5%;
   }
 }
 
@@ -3552,6 +3558,7 @@ Hero-6 Animation
   .header-3-main {
     top: 0;
   }
+
 }
 .header-3-main .container {
   max-width: 1640px;
@@ -3570,6 +3577,11 @@ Hero-6 Animation
   .header-3-main-content-wrapper {
     border-bottom: 0;
   }
+  .img {
+    width: 50%;
+    margin-left: 9em;
+  }
+
 }
 .header-3-main-content-wrapper.is-bb-none {
   border-bottom: 0;
@@ -3587,6 +3599,9 @@ Hero-6 Animation
 @media (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-3-main-right {
     gap: 0px;
+  }
+  .d-md-block {
+    width: 10%;
   }
 }
 
@@ -8035,7 +8050,7 @@ li {
 .contact-info-icon {
   width: 96px;
   height: 96px;
-  background: linear-gradient(180deg, #14CF93 0%, rgba(20, 207, 147, 0.4) 100%);
+  background: linear-gradient(180deg, #ed7d05 0%, rgba(168, 168, 168, 0.4) 100%);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -8278,6 +8293,7 @@ li {
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .services-area-3-content p {
     font-size: 18px;
+    color: #000;
   }
 }
 .services-area-3-content .area-btn {
