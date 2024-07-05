@@ -10767,7 +10767,7 @@ li {
 .team-inner-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 50px 80px;
+  gap: 5px 20px;
 }
 @media (max-width:450px), only screen and (min-width: 1200px) and (max-width: 1399px) {
   .team-inner-grid {
@@ -10794,7 +10794,8 @@ li {
 }
 
 .team-inner-item {
-  height: 450px;
+  height: 690px;
+  width: 0px;
   overflow: hidden;
   position: relative;
   background-color: var(--clr-theme-2);
