@@ -5048,6 +5048,14 @@ Hero-6 Animation
   }
 }
 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
 .banner-protec-shape-2 {
   width: 82px;
   position: absolute;
@@ -10767,7 +10775,7 @@ li {
 .team-inner-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 50px 80px;
+  gap: 5px 20px;
 }
 @media (max-width:450px), only screen and (min-width: 1200px) and (max-width: 1399px) {
   .team-inner-grid {
@@ -10794,7 +10802,8 @@ li {
 }
 
 .team-inner-item {
-  height: 450px;
+  height: 690px;
+  width: 0px;
   overflow: hidden;
   position: relative;
   background-color: var(--clr-theme-2);
@@ -10825,6 +10834,7 @@ li {
 
 .team-inner-area .noise {
   background: transparent url(../img/bg/noise-4.png) 0 0;
+  padding-top: 3000px;
 }
 .team-inner-area .noise-wrapper {
   opacity: 0.8;
