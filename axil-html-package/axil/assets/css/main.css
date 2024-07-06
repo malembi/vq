@@ -119,6 +119,15 @@ body {
 main {
   overflow: hidden;
 }
+/* .team-thmb-2 img {
+  opacity: 1; /* Ensure images are fully visible *
+  transition: none; /* Remove any transitions *
+}
+
+.team-thmb-2:hover img {
+  opacity: 1; /* No change on hover *
+} */
+
 
 section {
   position: relative;
@@ -7882,6 +7891,7 @@ body {
   color: white;
 }
 
+
 h2 {
   margin-bottom: 10px;
 }
@@ -10550,7 +10560,7 @@ li {
   }
 }
 
-.team-thmb-2 {
+/* .team-thmb-2 {
   position: relative;
   opacity: 0;
   visibility: hidden;
@@ -10559,7 +10569,7 @@ li {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-}
+} */
 @media (max-width:450px), (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
   .team-thmb-2 {
     opacity: 1;
