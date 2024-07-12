@@ -1819,7 +1819,7 @@ body.mfp-content {
   transition-delay: 0.15s;
 }
 .c-button:after {
-  background-color:  #dd5004;;
+  background-color:  #dd5004;
 }
 .c-button:hover {
   transform: scale(1);
